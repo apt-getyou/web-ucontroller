@@ -48,7 +48,7 @@ public class WebResult {
 		return this;
 	}
 
-	private String valueToJson(Object value) {
+	protected String valueToJson(Object value) {
 		return gson.toJson(value);
 	}
 
